@@ -1,5 +1,7 @@
 # 🤖 Bob - Your DMN Assistant Guide
 
+![alt text](image-1.png)
+
 ## 📚 Table of Contents
 1. [Project Overview](#project-overview)
 2. [Understanding the DMN Models](#understanding-the-dmn-models)
