@@ -1,6 +1,6 @@
 # 🤖 Bob - Your DMN Assistant Guide
 
-![alt text](image-1.png)
+![alt text](docs/image-1.png)
 
 ## 📚 Table of Contents
 1. [Project Overview](#project-overview)
@@ -102,6 +102,10 @@ dmn-quarkus-example/
                         │    (Decision)        │
                         └──────────────────────┘
 ```
+
+
+![alt text](docs/image-2.png)
+
 
 **Information Requirements**:
 1. **Fine Decision** requires: Violation input
@@ -346,7 +350,7 @@ Result:
 
 Switch to DMN FEEL EDITOR : 
 
-![DMN Feel edtitor](image.png)
+![DMN Feel edtitor](docs/image.png)
 
 
 **Ask Bob**: "Due to increasing extreme speeding incidents, authorities require automatic license suspension when a driver's actual speed is double (or more) the speed limit"
