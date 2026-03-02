@@ -589,6 +589,7 @@ start-ui.sh - Convenient startup script
 
 #### ✨ Key Features
 
+```
 🎨 Modern Design: Clean, professional interface with gradient background
 📱 Responsive: Works perfectly on desktop, tablet, and mobile
 🔄 Dynamic Form: Speed fields show/hide based on violation type
@@ -597,6 +598,7 @@ start-ui.sh - Convenient startup script
 📊 Detailed Output: Shows fine amount, points, total, and suspension status
 🔍 Raw JSON View: Expandable section to see complete API response
 ⚡ No Build Required: Static files served directly by Quarkus
+```
 
 ### Step 2: Testing the UI
 
@@ -710,6 +712,7 @@ Now that you understand the Traffic Violation DMN model, complete the three lab 
 After completing all three labs, continue your DMN journey:
 
 **Summary of What You've Learned**:
+
 1. ✅ Lab 1: Implemented extreme speeding suspension rule (DMN modeling)
 2. ✅ Lab 2: Learned to work effectively with Bob (AI collaboration)
 3. ✅ Lab 3: Built the user interface (Full-stack development)
@@ -747,13 +750,13 @@ After completing all three labs, continue your DMN journey:
    - Mentor other developers
 
 ### Remember
-
+```
 ✅ Bob is always here to help with any DMN challenge
 ✅ Be specific in your requests
 ✅ Iterate and test frequently
 ✅ Ask for explanations to deepen your understanding
 ✅ Request test cases for all new features
-
+```
 **Ready to start?** Just ask Bob: "Let's begin with Lab 1!"
 
 ---
