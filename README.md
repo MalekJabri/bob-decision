@@ -557,8 +557,48 @@ Once compiled, Quarkus automatically generates a REST endpoint for your DMN mode
 }
 ```
 
+### Step 1: Building the UI
 
-### Step 1: Testing the UI
+### 💬 Prompt to Bob
+
+```
+IT's a Kogito project for decision rules for Traffic Violation. IT will generate an rest api that I can call to validate if a customer will be fined or not. 
+I have the openapi generate for me but I would like to get a ui that show me a small form that allow me to test the dmn logic.
+```
+
+![alt text](image.png)
+
+🎉 What's Been Implemented
+I've created a modern, user-friendly web UI to test your Traffic Violation DMN logic. Here's what you now have:
+
+### 📁 Files Created
+#### UI Components:
+
+```
+src/main/resources/META-INF/resources/index.html - Main UI page with form
+src/main/resources/META-INF/resources/css/styles.css - Modern, responsive styling
+src/main/resources/META-INF/resources/js/app.js - Form handling & API integration
+```
+#### Documentation:
+
+```
+QUICK-START.md - Quick start guide
+UI-TESTING-GUIDE.md - Comprehensive testing guide with examples
+start-ui.sh - Convenient startup script
+```
+
+#### ✨ Key Features
+
+🎨 Modern Design: Clean, professional interface with gradient background
+📱 Responsive: Works perfectly on desktop, tablet, and mobile
+🔄 Dynamic Form: Speed fields show/hide based on violation type
+✅ Validation: Real-time form validation with helpful error messages
+🎯 Visual Results: Color-coded suspension alerts (green/red)
+📊 Detailed Output: Shows fine amount, points, total, and suspension status
+🔍 Raw JSON View: Expandable section to see complete API response
+⚡ No Build Required: Static files served directly by Quarkus
+
+### Step 2: Testing the UI
 
 1. **Start the application**:
    ```bash
@@ -577,7 +617,7 @@ Once compiled, Quarkus automatically generates a REST endpoint for your DMN mode
    - DUI violation
    - Extreme speeding (for Lab 1 implementation)
 
-### Step 2: Enhancements
+### Step 3: Enhancements
 
 #### Enhancement 1: Example Data Loader
 
