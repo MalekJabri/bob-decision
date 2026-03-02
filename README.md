@@ -611,7 +611,9 @@ start-ui.sh - Convenient startup script
    ```
    http://localhost:8080
    ```
+![alt text](image-2.png)
 
+![alt text](image-1.png)
 3. **Test scenarios**:
    - Minor speed violation
    - Major speed violation
