@@ -352,7 +352,6 @@ Switch to DMN FEEL EDITOR :
 
 ![DMN Feel edtitor](docs/image.png)
 
-
 **Ask Bob**: "Due to increasing extreme speeding incidents, authorities require automatic license suspension when a driver's actual speed is double (or more) the speed limit"
 
 Bob will propose several to do several step to udpate the decision rules : 
