@@ -408,6 +408,12 @@ After implementing the changes, the decision flow will look like this:
                         └──────────────────────┘
 ```
 
+
+The design shoudl look like this : 
+
+![alt text](image-3.png)
+
+
 **Updated Information Requirements**:
 - Fine Decision requires: Violation input
 - Suspension Decision requires: Driver input, Fine decision, **Violation input (NEW)**
