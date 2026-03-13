@@ -14,6 +14,63 @@
 
 ---
 
+## 1. 🔧 Install BAMOE Developer Tools Extension in Bob IDE
+
+The BAMOE Developer Tools extension provides powerful DMN modeling capabilities directly in Bob IDE (VS Code).
+
+### Installation Steps
+
+1. **Open Bob IDE (VS Code)**
+   ```bash
+   code .
+   ```
+   This opens the current directory in VS Code.
+
+2. **Open the Extensions View**
+   - Click the Extensions icon in the Activity Bar (left sidebar)
+   - Or press: `Ctrl+Shift+X` (Windows/Linux) or `Cmd+Shift+X` (macOS)
+
+3. **Search for BAMOE Developer Tools**
+   - In the search box, type: `BAMOE Developer Tools`
+   - Look for the official extension published by IBM
+
+4. **Install the Extension**
+   - Click the **Install** button
+   - Wait for the installation to complete (usually takes 30-60 seconds)
+
+5. **Reload VS Code (if prompted)**
+   - Click **Reload** if prompted
+   - Or close and reopen VS Code
+
+### Alternative Installation Method: From VSIX File
+
+If you have a `.vsix` file provided by your instructor (available in the [`VSIX/`](VSIX/) directory):
+
+1. **Open Command Palette:**
+   - Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS)
+
+2. **Type and select:**
+   - `Extensions: Install from VSIX...`
+
+3. **Browse to the .vsix file and select it**
+   - Navigate to: `VSIX/ibm.bamoe-developer-tools-9.3.1.vsix`
+
+4. **Wait for installation to complete**
+
+### Verify Extension Installation
+
+1. **Check installed extensions:**
+   - Open Extensions view (`Ctrl+Shift+X` / `Cmd+Shift+X`)
+   - Look for "BAMOE Developer Tools" in the installed list
+   - It should show as "Enabled"
+
+2. **Test DMN file support:**
+   - Open [`src/main/resources/Traffic Violation.dmn`](src/main/resources/Traffic%20Violation.dmn)
+   - You should see the DMN editor interface
+   - If you see XML code instead, the extension may not be active
+
+---
+
 ## 🎯 Project Overview
 
 ### What is This Project?
